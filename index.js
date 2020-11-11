@@ -52,7 +52,13 @@ function changeTextSize(newSize)
 function sayHello()
 {
 	//TODO: Передать привет от всех!
+<<<<<<< HEAD
 	console.log("Привет от Александра!!!)!");
+=======
+	console.log("Привет от Александра!");
+	console.log("Привет от Un-R");
+	console.log("Привет от EvgenyShevelev");
+>>>>>>> b9a9907cb9a679fc4385b6e015a76bf398f38ba2
 }
 
 function main()
