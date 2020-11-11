@@ -56,11 +56,54 @@ function sayHello()
 	console.log("Привет от Александра!!)!");
 =======
 	console.log("Привет от Александра!");
+
+	console.log("Привет из Белгорода!");
+
+	console.log("Привет от Ленара);
+
 	console.log("Привет от Un-R");
+
+
+        console.log("Привет от Виктора");
+
+
+
+	console.log("Привет от Иры из Калининграда!)");
+
+	console.log("Здесь был я");
+
+
+
+	console.log("Привет от albert-garipov");
+
 	console.log("Привет от EvgenyShevelev");
+<<<<<<< HEAD
 >>>>>>> b9a9907cb9a679fc4385b6e015a76bf398f38ba2
 }
+=======
+>>>>>>> d3e4db0f349d3f822efa3b990c936f3bd1a3889e
 
+
+	console.log("Привет из солнечной Чувашии");
+
+
+
+	console.log("Есть Казанские?))");
+
+	console.log("Привет из солнечной Чувашии");
+
+	console.log("Привет от Артема");
+	console.log(" Hello from Ilon Masl");
+
+
+
+
+	console.log("Привет из солнечной Чувашии");
+
+	console.log("Привет от Дмитрия");
+
+
+}
 function main()
 {
 	sayHello();
