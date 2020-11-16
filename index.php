@@ -38,6 +38,7 @@
 		<li><a href="/github/DmitriyWW">Дмитрий мл</a></li>
 		<li><a href="/github/KPolechka">Полина Уфа</a></li>
 		<li><a href="/www/web-development-tsu/github/DmitriyWW">Дмитрий мл</a></li>
+		<li><a href="/github/vp3393">Попов Валентин</a></li>
 	</ul>
 	<input class="name-field" type="text" placeholder="Введите имя" /><br>
 	<input class="lastname-field" type="text" placeholder="Введите фамилию" />
