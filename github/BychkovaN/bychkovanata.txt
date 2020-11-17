@@ -1,0 +1,8 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+	<title>Бычкова Н.А. - практика </title>
+</head>
+<body> <p style="color:red">Бычкова Наталья</b>
+</body>
+</html>
