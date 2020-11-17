@@ -1,4 +1,5 @@
 <?php
+/*<code><?=htmlspecialchars('<?php ?>')?></code>*/
 	// include
 	// include_once
 	// require
@@ -22,3 +23,6 @@
 
 		//echo "<img src='$image_path' />";
 		//echo "<img src=\"$image_path\" />";
+		//
+		//
+		//define("ROOT", $_SERVER['DOCUMENT_ROOT']); //объявление констант
