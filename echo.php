@@ -14,7 +14,33 @@
 
 	}
 */
+	$array = ['Alena', 'Alexandr', 'Boris', 'Vladimir'];
+	$assoc_array = [
+		'name1' => $array,
+		'string' => 'stroka',
+		'char' => 'simvol'	
+	];
 
+	try
+	{
+		$num = 1 / 0;
+
+		echo 'Succes!';
+		var_dump($ex);
+
+	}
+	catch(Exception $ex)
+	{
+		var_dump($ex);
+
+	}
+
+	
+/*	foreach($assoc_array as $key => $name)
+	{
+		echo $key . '. ' . $name . '<br>';
+	}
+*/
 	$name = $_GET['name'];
 	$lastname = $_GET['lastname'];
 
