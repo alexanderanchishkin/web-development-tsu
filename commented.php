@@ -26,3 +26,12 @@
 		//
 		//
 		//define("ROOT", $_SERVER['DOCUMENT_ROOT']); //объявление констант
+		//
+
+		//<pre>
+/*<?php
+	var_dump($_FILES);
+?>
+</pre>*/
+		//
+		//
