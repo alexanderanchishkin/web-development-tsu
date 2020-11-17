@@ -30,6 +30,12 @@
 		die();
 	}
 
+
+	require_once "database.php";
+	$description = "Описание";
+	//write_image_to_database($image_fullpath, $description);
+	load_description_from_database($uploaded_image_directory . '2020_11_17__17_27_42_image.png');
+
 	//echo "Файл загружен успешно!";
 
-	header('Location: /images.php');
+	//header('Location: /images.php');
