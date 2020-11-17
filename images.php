@@ -6,6 +6,8 @@
 </head>
 <body>
 
+<code><?=htmlspecialchars('<?php ?>')?></code>
+
 <?php
 	//$image_paths = ['/images/img1.png', '/images/img2.png', '/images/img3.png'];
 
@@ -38,10 +40,23 @@
 		if (!is_image($image_filename))
 			continue;
 
-		$image_path = "/images/$image_filename";
+		$arr = ["img" => $image_filename];
+		$image_path = "/images/{$arr['img']}";
 
 		// <img src="/images/img1.png" />
-		echo '<img src="' . $image_path . '" />';
+		//echo '<img src="' . $image_path . '" />';
+
+		//echo "<img src='$image_path' />";
+		//echo "<img src=\"$image_path\" />";
+
+
+?>
+
+		<img src="<?=$image_path?>" />
+
+
+<?php
+
 	}
 
 ?>
