@@ -12,7 +12,7 @@
 
 		$image_path = "$image_directory/$image_filename";
 
-		echo "<img src=\"$image_path\" />";
+		echo "<img src=\"$image_path\" width=400/>";
 	}
 
 	function print_images($image_directory)
