@@ -1,6 +1,3 @@
-
-<?php
-	echo 'images';
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +9,12 @@
 <code><?=htmlspecialchars('<?php ?>')?></code>
 
 <?php
+	// include
+	// include_once
+	// require
+	// require_once
+	require_once "utilities/images_utilities.php";
+
 	//$image_paths = ['/images/img1.png', '/images/img2.png', '/images/img3.png'];
 
 	/* Проверяли работу scandir()
@@ -21,18 +24,7 @@
 
 	$image_filenames = scandir("./images");
 
-	function endsWith( $string, $suffix ) {
-	    $length = strlen( $suffix );
-	    if( !$length ) {
-	        return true;
-	    }
-	    return substr( $string, -$length ) === $suffix;
-	}
-
-	function is_image($image_path)
-	{
-		return endsWith($image_path, '.png');
-	}
+	// images.php -> images_utilities.php -> strings_utilities.php
 
 	foreach ($image_filenames as $image_filename)
 	{
