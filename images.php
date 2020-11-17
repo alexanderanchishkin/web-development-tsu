@@ -1,3 +1,6 @@
+
+<?php
+	echo 'images';
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,3 +66,4 @@
 
 </body>
 </html>
+

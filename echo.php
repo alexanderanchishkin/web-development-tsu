@@ -53,3 +53,4 @@
 
 	echo "Вас зовут $name $lastname!";
 	//echo $_POST['name'] . ' ' . $_POST['lastName'];
+
