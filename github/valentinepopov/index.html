@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+
+<!--============================================================
+
+*   Design: Попов Валентин Игоревич
+*   Copyright (c) 2020: ...
+
+=============================================================-->
+
+<html lang="ru">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- для адаптивного дизайна -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- информация о сайте -->
+<title>Задание 3.2</title>
+<meta name="description" content="Достопримечательностях города воинской славы - Елец">
+<meta name="keywords" content="Ключевые слова сайта">
+<meta name="author" content="vk.com/vp3393">
+
+
+<!-- Подключаем jQuery, используя постоянную ссылку на официальном ресуросе -->
+	<script type="text/javascript" src=" https://code.jquery.com/jquery-3.5.1.js "></script	
+
+	<script>
+		var myColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+			document.write('\
+				<style>\
+						body{\
+						background-color: '+myColor+';\
+					}\
+				</style>\
+		');
+	</script>	
+		<!-- Задаем скрипт для выбора рандомного цвета фона с кнопки-->	
+	    <script type="text/javascript">
+      function changecolor(e)
+      {
+       e.preventDefault();
+
+       var input = this.elements[0];
+       document.body.style.backgroundColor = input.value;
+       input.value = '';
+       input.focus();
+    }
+    </script>
+</head>
+
+<body>
+<!--===== ШАПКА САЙТА =====-->
+<div id="header-container" role="banner">
+    <header style="text-align: center;">
+      <img src="files/logo.png" />
+
+		
+
+    </header>
+</div>
+
+<!--===== КОНТЕНТ =====-->
+<div id="main-container">
+    <main role="main">
+
+        <!-- блок 1 | ... -->
+        <section>
+		
+		<!-- Сделаем кнопку для отображения текущей даты/времени -->	
+		<p style="text-align: center;"><button type="button"
+			onclick="document.getElementById('demo').innerHTML = Date()">
+			Нажми на меня, чтобы отобразить текущую дату и время</button></p>
+			<p style="text-align: center;" id="demo"></p>
+	
+		<!-- Сделаем форму для задания рандомного цвета фона -->		
+		<form style="text-align: center;" onsubmit="changecolor();">
+			<input type="submit" value="Изменить цвет фона на рандомный">
+		</form>
+	 
+		   <header>
+                <h1 style="text-align: center;" style="padding-left: 30px;">Достопримечательности города Ельца</h1>
+            </header>
+
+            <article>
+				<h2 style="padding-left: 30px;">Памятники</h2>
+                <h3 class="blue" style="padding-left: 30px;"><strong>1. Памятник погибшим в Афганистане</strong></h3>
+						<p style="padding-left: 30px;">Павшие бойцы перечислены поимённо.</p>
+						<p style="padding-left: 30px;"><img src="images/pamyatniki/1.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+						<p><img src="images/pamyatniki/2.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>2. Памятник воинам 150-й отдельной танковой бригады (Танк Т-72)</strong></h3>
+						<p style="padding-left: 30px;">Памятник воинам 150-й отдельной танковой бригады, освобождавшим Елец от фашистов, был установлен в восьмидесятые годы. Тогда не удалось найти Т-34, поэтому решили использовать Т-72, таких танков было много.</p>
+						<p><img src="images/pamyatniki/3.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+						<p><img src="images/pamyatniki/2.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>3. Каракумовский пешеходный мост</strong></h3>
+						<p style="padding-left: 30px;">Стройка высоководного Каракумского моста началась в 1931 году. Первые испытания состоялись 16 сентября 1933 года. Его длина составила 198 метров. Пролеты и фермы моста были деревянными. Чуть позже по нему пошли автомобили исторического автопробега Москва — Каракумы — Москва. Каракумский мост стал первым постоянным автомобильным. Прежде берега Сосны соединяли лишь железнодорожный и наплавной мосты. Во время войны мост был разрушен. В 1943 году его восстановили, так как он был стратегическим объектом. Правда, второй Каракумский мост стал не совсем новым: для сокращения сроков приняли решение перевести в Елец стальной клепаный мост из Крыма. В 1970 году мост прошел косметический ремонт. После строительства нового, железобетонного, моста через Сосну (он открылся в 1979 году) Каракумский отдали пешеходам. А в конце 1990-х годов из-за износа конструкций мост закрыли. В апреле 2005 года начались восстановительные работы. 4 ноября 2005 года Каракумский мост торжественно открыли. Однако он по-прежнему используется как пешеходный.</p>
+						<p style="padding-left: 30px;"><img src="images/pamyatniki/4.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+						<p style="padding-left: 30px;"><img src="images/pamyatniki/5.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+				<h3 class="blue"style="padding-left: 30px;"><strong>4. Башня городских часов</strong></h3>
+						<p style="padding-left: 30px;">Водонапорная башня, построенная в 1868 году, на площади Ленина считается одним из символов города. Когда-то это был первый водопровод Ельца протяженностью всего 7 км. Пользоваться им могли только богатые жители города. В 1975 году на каждой из сторон башни установили часы, которые сделал местный мастер-самоучка Михаил Гребенкин. Кстати, подобные куранты он изготовил и для города Грязи. Куранты отбивают бой каждые четверть часа, так что многие жители даже забыли, что когда-то это сооружение было водопроводом. В Ельце строение часто зовут Башней городских часов</p>
+						<p style="padding-left: 30px;"><img src="images/pamyatniki/6.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+						<p style="text-align: center;"><img src="images/pamyatniki/7.jpg" alt="" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>5. Памятный знак в честь 850-летия основания города</strong></h3>
+						<p style="padding-left: 30px;">Ельца Не случайно на Красной площади установлен памятник защитникам Ельца, выполненный по проекту скульптора Н.А. Кравченко, преподавателя Елецкого государственного университета имени И.А.Бунина. Памятник в честь 850-летия города был установлен в 1996г. Под 3 метра высотой встал князь, олицетворяющий доблесть и силу России, рядом — ельчанин-ополченец и солдат ВОВ. Четвертая фигура женская — Родина-мать. Здесь же, в сквере, мы можем видеть акрополь. Проводившиеся профессором Н.А. Тропиным в 1996г. археологические раскопки на Красной площади города в районе установки памятного знака, дали много интересного материала: уточнено место древнейшего в Ельце старого Воскресенского собора, выявлены его конструкции, подтверждена датировка закладки, определена юго-западная граница кладбища при храме, найдена масса бытовых предметов, монет, украшений.</p>
+						<p style="padding-left: 30px;"><img src="images/pamyatniki/8.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+						<p style="padding-left: 30px;"><img src="images/pamyatniki/9.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>6. Пожарная каланча</strong></h3>
+						<p style="padding-left: 30px;">История возникновения пожарной охраны в Ельце связана с деятельностью купцов — кожевенников Валуйских. В 1811 году, располагая необходимыми средствами, они учредили при кожевенном заводе пожарную команду, превосходно оснащенную для того времени. В 1862 году в Ельце впервые появились вольные дружины, состоящие из местных жителей, рабочих и служащих. В 1865 году в Ельце была выстроена первая пожарная вышка на улице Орловской (ныне Коммунаров). Отреставрированная пожарная Каланча и пожарное депо, построенные еще купцами Валуйскими и до сих пор служат охране Ельца от пожаров.</p>
+						<p style="padding-left: 30px; text-align: center;"><img src="images/pamyatniki/11.jpg" alt="" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>7. Памятник художнику Н.Н. Жукову</strong></h3>
+						<p style="padding-left: 30px;">Памятник открыт на пересечении улиц Коммунаров и Мира. Это скульптурная композиция посвящена 100-летию со дня рождения художника Жукова, известного в нашей стране и за ее пределами. В Ельце прошли его детские годы. Скульптор Александр Михайлович Таратынов.</p>
+						<p style="padding-left: 30px; text-align: center;"><img src="images/pamyatniki/12.jpg" alt="" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>8. Стела «Город Воинской славы»</strong></h3>
+					<p style="padding-left: 30px;">8 октября 2007 года указом Президента РФ № 1347 Ельцу было присвоено почетное звание «Город воинской славы». Знаменательным событием для ельчан стало создание величественного монумента на Красной площади Ельца, торжественное открытие которого состоялось 7 мая 2010 года, а 9 мая 2010 года по площади маршем прошел первый военный парад, ставший традиционным. Памятник строился с 19 марта 2010 по 7 мая 2010 года. Авторский коллектив — архитекторы И. Н. Воскресенский, В. В. Перфильев, скульптор С. А. Щербаков.</p>
+					<p style="padding-left: 30px;"><img src="images/pamyatniki/13.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+					<p style="padding-left: 30px;"><img src="images/pamyatniki/14.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>9. Памятник Елецкому пехотному полку</strong></h3>
+					<p style="padding-left: 30px;">Памятник 33-му Елецкому пехотному полку, участвовавшему в Отечественной войне 1812 года, установлен в 1996 г. на средства елецкого коллекционера Е.П. Крикунова.</p>
+					<p style="padding-left: 30px; text-align: center;"><img src="images/pamyatniki/15.jpg" alt="" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>10. Памятник Самолёт МИГ-25</strong></h3>
+					<p style="padding-left: 30px; text-align: center;"><img src="images/pamyatniki/16.jpg" alt="" /></p>
+				<h3 class="blue" style="padding-left: 30px;"><strong>11. Памятник А.А. Вермишеву</strong></h3>
+					<p style="padding-left: 30px;">29 апреля 1971 года на площади г. Ельца, расположенной в непосредственной близости от железнодорожной станции, состоялось торжественное открытие памятника А. А. Вермишеву. На открытии присутствовал его сын, заслуженный работник культуры Башкирской АССР А. А. Вермишев. Автор памятника: народный художник России, член-корреспондент Российской академии художеств, почетный гражданин города Липецка, липецкий скульптор Ю. Д. Гришко. На постаменте, облицованном розовым мрамором, на фоне развевающегося знамени фигура Вермишева. Одной рукой он сжимает древко знамени, другой опирается на книгу. Памятник выполнен из кованой меди. Его высота с постаментом 6,5 метра. Теперь эта площадь носит имя А. А. Вермишева.</p>
+					<p style="padding-left: 30px; text-align: center;"><img src="images/pamyatniki/17.jpg" alt="" /></p>
+			</article>
+
+        </section>
+
+        <!-- блок 2 | ... -->
+        <section>
+        ...
+        </section>
+
+    </main>
+
+</div>
+
+<!--===== ПОДВАЛ САЙТА =====-->
+<div id="footer-container" role="contentinfo">
+    <footer>
+        <p></p>
+        <small>Copyright &copy; <time datetime="2020">2020</time></small>
+    </footer>
+</div>
+
+</body>
+</html>
