@@ -13,6 +13,7 @@
 </form>
 
 <button class="load_images_button">Загрузить изображения</button>
+<button class="load_images_json">Загрузить изображения (json)></button>
 <button class="start_task_button">Старт задачи</button>
 
 <div class="images_container"></div>
