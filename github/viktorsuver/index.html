@@ -1,11 +1,40 @@
 <!DOCTYPE html>
+<html>
 <head>
 <html>
     <meta charset="UTF-8"/>
     <title>Тест-Драйв</title>
+<style>
+body {
+width:100%;
+padding:40px;
+}
+p {
+text-align: center;
+font-size: 46px;
+color: red;
+}
+#blink {  
+  -webkit-animation: blink 2s linear infinite;  
+  animation: blink 2s linear infinite;  
+}  
+@-webkit-keyframes blink {  
+  30% { color: rgb(145, 90, 89); }
+  35% { color: rgb(123, 75, 75, 0.9); }    
+  36% { color: rgba(34, 34, 34, 0); }  
+  100% { color: rgba(34, 34, 34, 0); }  
+}  
+@keyframes blink {  
+  30% { color: rgb(145, 90, 89); }
+  35% { color: rgb(123, 75, 75, 0.9); }    
+  36% { color: #924444fa; }  
+  100% { color: #ff020287; }  
+}
+</style>
 </head>
 <body>
-<h1>Привет, Коллеги! =)</h1>
+<h1 style="color: lightslategrey">Привет, Коллеги! =)</h1>
 <a href="/">Вернуться Домой!</a>
+<p id="blink">Я всё таки это сделал!!! =)... запустил сайт на Apache2</p>
 </body>
 </html>
